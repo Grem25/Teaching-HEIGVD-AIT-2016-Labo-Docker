@@ -1,0 +1,4 @@
+CONTAINER ID        IMAGE                  COMMAND             CREATED             STATUS              PORTS                                                                                    NAMES
+295d73a830c2        softengheigvd/webapp   "/init"             About an hour ago   Up About an hour    3000/tcp, 7373/tcp, 7946/tcp                                                             s2
+5621c5f3a7db        softengheigvd/webapp   "/init"             About an hour ago   Up About an hour    3000/tcp, 7373/tcp, 7946/tcp                                                             s1
+f2782a035710        96c16f7dc00c           "/init"             About an hour ago   Up About an hour    0.0.0.0:80->80/tcp, 7373/tcp, 0.0.0.0:1936->1936/tcp, 0.0.0.0:9999->9999/tcp, 7946/tcp   ha

@@ -1,0 +1,9 @@
+vagrant@ubuntu-14:/vagrant/logs/task 5$ docker rm -f s1
+s1
+vagrant@ubuntu-14:/vagrant/logs/task 5$ docker exec -ti ha /bin/bash
+root@733b9cab94e4:/# cd nodes/
+root@733b9cab94e4:/nodes# ls
+05d5266e9ec4
+root@733b9cab94e4:/nodes# cat 05d5266e9ec4 
+05d5266e9ec4 172.18.0.4
+
